@@ -10,8 +10,9 @@ function main() {
     webPreferences: {
       nodeIntegration: true
     },
-    width: 800,
-    height: 600,
+    width: 520,
+    height: 650,
+    frame: false,
   })
 
   // load app/index.html as the window content
@@ -24,4 +25,3 @@ app.on('window-all-closed', function () {
   app.quit();
 });
 
-mainWindow.webContents.openDevTools();
