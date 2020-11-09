@@ -12,7 +12,6 @@ function main() {
     },
     width: 520,
     height: 650,
-    frame: false,
   })
 
   // load app/index.html as the window content
@@ -24,4 +23,5 @@ app.on('ready', main);
 app.on('window-all-closed', function () {
   app.quit();
 });
+
 
